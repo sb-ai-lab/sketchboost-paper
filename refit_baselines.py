@@ -49,7 +49,7 @@ if __name__ == '__main__':
     data_info = joblib.load(os.path.join(data_path, 'data_info.pkl'))
     datasets = ['otto', 'dionis', 'helena', 'sf-crime', 'moa', 'scm20d', 'rf1', 'delicious', 'mediamill', ]
 
-    tasks = [x for x in product(datasets, ['cb', 'xgb'])]
+    tasks = product(datasets, ['cb', 'xgb'])
 
     Parallel(n_jobs=args.ngpus, backend="threading")(
         delayed(get_baseline)(NAME, benchmark_path, data_path, ds, fr, rewrite=False) for (ds, fr) in tasks
