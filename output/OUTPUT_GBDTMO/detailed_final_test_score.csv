@@ -1,0 +1,15 @@
+Dataset,K,Caltech (101 classes),NUS-WIDE (81 labels),MNIST (10 classes),MNIST-REG (24 tasks)
+GBDTMO-Full,-,0.4469,0.9891,0.976,0.2723
+CatBoost (multioutput),-,0.5049,0.9893,0.9684,0.2708
+SketchBoost Full,-,0.5549,0.9893,0.973,0.266
+GBDTMO-Sparse,-,0.4796,0.9892,0.9758,0.2736
+Random Sampling,1,0.5377,0.9891,0.973,0.2661
+Random Sampling,2,0.5395,0.9891,0.9712,0.2662
+Random Sampling,5,0.5599,0.9893,0.9755,0.2659
+Random Sampling,10,0.571,0.989,0.9753,0.2659
+Random Sampling,20,0.5691,0.9889,-,0.2667
+Random Projection,1,0.5623,0.9897,0.9737,0.2657
+Random Projection,2,0.5537,0.9893,0.9722,0.2661
+Random Projection,5,0.5605,0.9896,0.974,0.2658
+Random Projection,10,0.5358,0.9893,0.9722,0.2663
+Random Projection,20,0.5488,0.9892,-,0.2654

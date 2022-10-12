@@ -1,0 +1,10 @@
+Dataset,SketchBoost Full,CatBoost (multioutput),XGBoost (one-vs-all),Tabnet,Top Outputs,Random Sampling,Random Projection
+Otto (9 classes),0.0021,0.0012,0.001,0.0031,0.0016,0.0025,0.001
+Dionis (355 classes),0.0004,0.0003,0.0007,0.0032,0.0007,0.0005,0.0004
+Helena (100 classes),0.0011,0.0017,0.0012,0.0061,0.0014,0.0009,0.0019
+SF-Crime (39 classes),0.0007,0.0008,0.0003,0.0038,0.0006,0.0005,0.0004
+MoA (206 labels),0.0,0.0,0.0,0.0001,0.0,0.0,0.0
+SCM20D (16 tasks),0.0007,0.0006,0.0008,0.0022,0.001,0.0007,0.0008
+RF1 (8 tasks),0.0001,0.0,0.0,0.0037,0.0001,0.0001,0.0
+Delicious (983 labels),0.0,0.0,0.0,0.0001,0.0,0.0,0.0
+Mediamill (101 labels),0.0001,0.0001,0.0,0.0011,0.0,0.0001,0.0
