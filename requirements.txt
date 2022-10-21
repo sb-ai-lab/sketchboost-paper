@@ -1,11 +1,11 @@
-numpy==1.21.0
+numpy
 joblib
 py-boost==0.2.2
 xgboost==1.6.0
 catboost==1.0.5
 scikit-learn==1.0.2
 pandas==1.3.4
-numba==0.55.1
+numba
 optuna==2.10.0
 pytorch-tabnet==3.1.1
 torch==1.7.0
