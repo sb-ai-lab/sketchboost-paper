@@ -1,4 +1,5 @@
 numpy
+matplotlib
 joblib
 py-boost==0.2.2
 xgboost==1.6.0
